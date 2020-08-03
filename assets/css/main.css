@@ -2930,7 +2930,7 @@ input, select, textarea {
 		}
 
 		header > h2 + p {
-			font-size: 1rem;
+			font-size: 1.2rem;
 			margin-top: -0.75rem;
 		}
 
@@ -2999,7 +2999,12 @@ input, select, textarea {
 	header.major .date:before, header.major .date:after {
 		border-top-color: #eeeeee;
 	}
-
+	
+	p.minor {
+		margin: 0 0 4rem 0;
+		padding-left: 2.5rem;
+		padding-right: 2.8rem
+	}
 /* Table */
 
 	.table-wrapper {
